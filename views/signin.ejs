@@ -1,0 +1,37 @@
+<%- include("header") -%>
+
+
+<body class="text-center signin">
+    <div>
+        <main class="form-signin">
+            <img class="mb-4" src="https://avatars.githubusercontent.com/u/67204311?s=400&u=69b06fd99b786712bf90cec46ffa2eadb1526374&v=4" alt="" width="72" height="57">
+            <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+        
+            <div class="form-floating">
+              <input type="text" class="form-control userid-field" id="floatingInput" placeholder="">
+              <label for="floatingInput">User ID</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control pass-field" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
+    
+            <div class="container">
+                 <div class="row">
+                     <div class="col-lg-6">
+                         <button class="w-100 btn btn-lg btn-outline-primary signin-btn" type="submit">Sign in</button>
+                    </div>
+                    <div class="col-lg-6">
+                        <form action="/signup" method="get">
+                            <button  class="w-100 btn btn-lg btn-primary signin-btn" type="submit">Sign up</button>
+                        </form>
+                    </div>
+                 </div>   
+            </div>
+            
+        </main>
+    </div>
+     
+</body>
+
+<%- include("footer") -%>

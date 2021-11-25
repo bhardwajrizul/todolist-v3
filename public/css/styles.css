@@ -1,0 +1,42 @@
+
+
+.signin-btn{
+    margin-top: 20%;
+    padding-top: 2%;
+}
+
+.userid-field{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.pass-field-middle{
+    border-radius: 0;
+}
+
+
+.pass-field{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.footer {
+    margin-top: 5%;
+    color: rgb (0, 0, 0, 0.5);
+    text-align: center;
+}
+
+@media(min-width: 720px){
+    .signin{
+        margin: 5% 40%;
+    }
+}
+@media(max-width: 720px){
+    .signin{
+        margin: 5% 5%;
+    }
+    .signin-btn{
+        margin-top: 5%;
+        padding-top: 2%;
+    }
+}
